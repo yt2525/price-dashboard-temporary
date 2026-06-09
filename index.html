@@ -273,6 +273,7 @@ function renderContent() {
     
     competitors.forEach(comp => {
       const isOG = comp === 'OG';
+      const isG2G = comp === 'G2G';
       const url = product.urls[comp];
       const savedPrice = getPrice(sheet, pname, comp);
       
