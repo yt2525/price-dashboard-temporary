@@ -1,6 +1,8 @@
 {
   "ok": 90,
   "failed": 9,
-  "errors": [],
-  "elapsed_sec": 252.1
+  "errors": [
+    "LapakGaming https://www.lapakgaming.com/en-my/voucher-playstation-networ :: TimeoutError"
+  ],
+  "elapsed_sec": 259.6
 }

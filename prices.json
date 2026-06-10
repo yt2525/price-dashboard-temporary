@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T10:06:02.898853+00:00",
+  "generated": "2026-06-10T12:24:52.263521+00:00",
   "source": "scrape.py",
   "prices": {
     "PlayStation": {
@@ -8,134 +8,134 @@
         "Kinguin": 91.03,
         "Seagm": 0.92,
         "Codashop": 100.0,
-        "Eneba": 92.72
+        "Eneba": 92.25
+      },
+      "PlayStation™Store EUR 250 Gift Cards (DE)": {
+        "Kinguin": 254.5,
+        "Seagm": 7.77,
+        "Eneba": 246.07
       },
       "PlayStation™Store USD250 Gift Cards (US)": {
-        "Kinguin": 244.15,
-        "Eneba": 229.87,
+        "Kinguin": 244.71,
         "Seagm": 0.92,
         "MooGold": 23.66
       },
-      "PlayStation™Store EUR 250 Gift Cards (DE)": {
-        "Kinguin": 253.77,
-        "Seagm": 7.78,
-        "Eneba": 246.1
-      },
       "PlayStation™Store USD75 Gift Cards (US)": {
-        "Kinguin": 68.68,
+        "Kinguin": 68.86,
         "Seagm": 0.92,
         "Codashop": 75.0,
-        "Eneba": 69.12,
+        "Eneba": 69.11,
         "MooGold": 23.66
       },
       "PlayStation™Store USD 100 Gift Cards (AE)": {
-        "Eneba": 92.49,
         "Unipin": 10.0,
+        "Eneba": 92.48,
         "MooGold": 10.0,
         "Kinguin": 100.26,
         "Seagm": 7.34
       },
       "PlayStation™Store EUR 200 Gift Cards (DE)": {
-        "Kinguin": 202.4,
-        "Seagm": 7.78,
-        "Eneba": 197.22
+        "Kinguin": 197.64,
+        "Eneba": 197.19,
+        "Seagm": 7.77
       },
       "PlayStation™Store USD 50 Gift Cards (AE)": {
-        "Kinguin": 50.18,
+        "Kinguin": 50.3,
         "Seagm": 7.34,
         "Unipin": 10.0,
         "Eneba": 48.13,
         "MooGold": 10.0
       },
       "PlayStation™Store USD50 Gift Cards (US)": {
-        "Kinguin": 44.78,
+        "Kinguin": 47.9,
         "Seagm": 0.92,
         "Codashop": 50.0,
-        "Eneba": 46.17,
         "MooGold": 23.66
       },
       "PlayStation™Store EUR 150 Gift Cards (DE)": {
-        "Kinguin": 154.96,
-        "Seagm": 7.78,
+        "Kinguin": 156.91,
+        "Seagm": 7.77,
+        "Eneba": 149.66,
         "MooGold": 5.78
       },
       "PlayStation™Store GBP 100 Gift Cards (UK)": {
-        "Seagm": 9.89,
+        "Seagm": 9.88,
         "Kinguin": 120.98,
-        "Eneba": 117.73,
+        "Eneba": 117.72,
         "MooGold": 13.39
       },
-      "PlayStation™Store MYR 200 Gift Cards (MY)": {
-        "Kinguin": 55.37,
-        "Seagm": 5.74,
-        "LapakGaming": 7.38,
-        "Unipin": 7.39,
-        "MooGold": 7.24
-      },
       "PlayStation™Store USD 200 Gift Cards (QA)": {
-        "Kinguin": 201.84,
-        "Eneba": 193.63
+        "Kinguin": 200.21,
+        "Eneba": 193.6
       },
-      "PlayStation™Store USD 100 Gift Cards (QA)": {
-        "Kinguin": 101.74,
-        "Eneba": 83.17,
-        "MooGold": 5.0
+      "PlayStation™Store MYR 200 Gift Cards (MY)": {
+        "Kinguin": 54.92,
+        "Seagm": 5.73,
+        "Unipin": 7.39,
+        "Eneba": 51.81,
+        "MooGold": 7.24,
+        "LapakGaming": 7.38
       },
       "PlayStation™Store USD25 Gift Cards (US)": {
-        "Kinguin": 25.81,
+        "Kinguin": 23.84,
         "Seagm": 0.92,
         "Codashop": 25.0,
         "Eneba": 22.98,
         "MooGold": 23.66
       },
+      "PlayStation™Store USD 100 Gift Cards (QA)": {
+        "Kinguin": 101.74,
+        "Eneba": 83.16,
+        "MooGold": 5.0
+      },
       "PlayStation™Store USD 50 Gift Cards (QA)": {
         "Seagm": 7.34,
-        "Eneba": 40.43,
+        "Eneba": 40.42,
         "MooGold": 5.0
       },
       "PlayStation™Store MYR 100 Gift Cards (MY)": {
         "Kinguin": 27.77,
-        "Seagm": 5.74,
+        "Seagm": 5.73,
         "LapakGaming": 7.38,
         "Unipin": 7.39,
-        "Eneba": 26.27,
+        "Eneba": 26.35,
         "MooGold": 7.24
       },
       "PlayStation™Store USD200 Gift Cards (US)": {
-        "Kinguin": 193.61,
+        "Kinguin": 194.15,
         "Seagm": 0.92,
-        "Eneba": 178.14,
+        "Eneba": 177.8,
         "MooGold": 23.66
       },
       "PlayStation™Store GBP 50 Gift Cards (UK)": {
         "Kinguin": 57.97,
-        "Seagm": 9.89,
-        "Eneba": 58.24,
+        "Seagm": 9.88,
+        "Eneba": 58.23,
         "MooGold": 13.39
       },
       "PlayStation™Store USD150 Gift Cards (US)": {
         "Kinguin": 137.74,
         "Seagm": 0.92,
-        "Eneba": 138.4,
+        "Eneba": 138.37,
         "MooGold": 23.66
-      },
-      "PlayStation™Store MYR 50 Gift Cards (MY)": {
-        "Kinguin": 13.64,
-        "Seagm": 5.74,
-        "LapakGaming": 7.38,
-        "Unipin": 7.39,
-        "Eneba": 12.88,
-        "MooGold": 7.24
       },
       "PlayStation™Store GBP 20 Gift Cards (UK)": {
         "Kinguin": 25.24,
         "Eneba": 23.75,
-        "Seagm": 9.89,
+        "Seagm": 9.88,
         "MooGold": 13.39
       },
+      "PlayStation™Store MYR 50 Gift Cards (MY)": {
+        "Kinguin": 13.61,
+        "Seagm": 5.73,
+        "LapakGaming": 7.38,
+        "Eneba": 12.84,
+        "Unipin": 7.39,
+        "MooGold": 7.24
+      },
       "PlayStation™Store USD 200 Gift Cards (AE)": {
-        "Kinguin": 200.23,
-        "Eneba": 193.34
+        "Kinguin": 200.21,
+        "Eneba": 193.16
       }
     }
   }
