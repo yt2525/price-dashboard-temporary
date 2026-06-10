@@ -1,7 +1,21 @@
 name: Scrape competitor prices
 
+# Runs Playwright on GitHub's (US-based) runners and commits prices.json.
+# Start with a manual run on one category to confirm it works before scheduling.
+
 on:
-  workflow_dispatch:        # manual "Run workflow" button in the Actions tab
+  workflow_dispatch:
+    inputs:
+      categories:
+        description: "Comma-separated categories (blank = all). e.g. PlayStation"
+        required: false
+        default: "PlayStation"
+      limit:
+        description: "Max URLs (0 = no limit). Use a small number to test."
+        required: false
+        default: "60"
+  # schedule:
+  #   - cron: "0 */6 * * *"   # uncomment once it is working well
 
 permissions:
   contents: write
@@ -13,7 +27,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,7 +44,11 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Run scraper
-        run: python scrape.py
+        env:
+          CATEGORIES: ${{ github.event.inputs.categories }}
+          LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          python scrape.py ${CATEGORIES:+--categories "$CATEGORIES"} ${LIMIT:+--limit "$LIMIT"}
 
       - name: Commit prices.json
         run: |
